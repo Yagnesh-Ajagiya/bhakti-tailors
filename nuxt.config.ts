@@ -1,36 +1,14 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
+  compatibilityDate: '2026-04-12',
   modules: [
-    '@nuxtjs/tailwindcss',
-    'nuxt-simple-sitemap'
+    '@nuxtjs/tailwindcss'
   ],
-
-  // Sitemap configuration (updated)
-  sitemap: {
-    siteUrl: 'https://bhakti-tailors.com',
-    gzip: true
-  },
-
-  // Robots.txt configuration (updated structure)
-  robots: {
-    rules: [
-      {
-        userAgent: '*',
-        allow: '/',
-        disallow: ''
-      }
-    ],
-    sitemap: 'https://bhakti-tailors.com/sitemap.xml'
-  },
-
   css: ['@/assets/css/main.css'],
-
   nitro: {
-    compressPublicAssets: true,
-    preset: 'vercel'
+    compressPublicAssets: true
   },
-
   app: {
     head: {
       htmlAttrs: {
@@ -42,7 +20,7 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#bc004b' }
       ],
-      link: [
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.icon' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' }

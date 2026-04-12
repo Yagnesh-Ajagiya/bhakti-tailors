@@ -10,7 +10,6 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
     "nuxt": "^3.10.0",
-    "nuxt-simple-sitemap": "^4.4.1",
     "resend": "^3.2.0"
   },
   "devDependencies": {
