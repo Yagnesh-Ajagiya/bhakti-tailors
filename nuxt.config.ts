@@ -20,8 +20,8 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#bc004b' }
       ],
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.icon' },
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.ico' },
+        { rel: 'shortcut icon', href: '/favicon.ico' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' }
       ]
