@@ -13,10 +13,10 @@
       </div>
       <div class="relative h-64 lg:h-80 w-full rounded-xl overflow-hidden shadow-xl">
         <img
-          src="https://images.unsplash.com/photo-1556905055-8f358a7a4bb4?q=80&w=2070&auto=format&fit=crop"
-          data-alt="Close-up of high-quality red and gold silk fabric being measured with a yellow tailor tape in a bright boutique setting"
+          src="/LadyOnMirror.png"
+          alt="Professional tailoring and fashion fitting at our boutique atelier"
           class="w-full h-full object-cover"
-         alt="Close-up of high-quality red and gold silk fabric being measured with a yellow tailor tape in a bright boutique setting" loading="lazy"/>
+          loading="lazy"/>
         <div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
       </div>
     </div>

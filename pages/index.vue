@@ -122,8 +122,8 @@ definePageMeta({
         '@type': 'LocalBusiness',
         name: 'Bhakti Tailors',
         description: 'Premier ladies tailoring and custom couture services in Rajkot, specializing in bridal wear, blouses, and bespoke dresses.',
-        url: 'https://bhakti-tailors.com',
-        telephone: '+91-XXXXXXXXXX', // Replace with actual phone
+        url: 'https://bhakti-tailors.vercel.app/',
+        telephone: '+91-9376886810', // Replace with actual phone
         address: {
           '@type': 'PostalAddress',
           streetAddress: '2/15 Gundawadi',
@@ -134,8 +134,8 @@ definePageMeta({
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 22.3039, // Replace with actual coordinates
-          longitude: 70.8022
+          latitude: 22.2880126, // Replace with actual coordinates
+          longitude: 70.8050336 // Replace with actual coordinates
         },
         openingHours: [
           'Mo-Sa 09:00-19:00',
@@ -144,7 +144,7 @@ definePageMeta({
         priceRange: '₹₹',
         image: '/Public/SticthingMachine.png',
         sameAs: [
-          'https://www.google.com/business' // Add your Google Business profile URL
+          'https://www.google.com/maps/place/Bhakti+Tailor/data=!4m2!3m1!1s0x0:0xd006e10ef49fef5d?sa=X&ved=1t:2428&ictx=111' // Add your Google Business profile URL
         ]
       })
     }
