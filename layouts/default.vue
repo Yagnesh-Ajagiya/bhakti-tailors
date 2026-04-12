@@ -1,7 +1,9 @@
 <template>
-  <div class="min-h-screen bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+  <div class="min-h-screen bg-background text-on-background font-body selection:bg-primary-fixed selection:text-on-primary-fixed" :class="{ 'overflow-hidden': isSidebarOpen }">
     <SiteHeader />
-    <NuxtPage />
+    <div class="pt-20">
+      <NuxtPage />
+    </div>
     <SiteFooter />
   </div>
 </template>
@@ -9,6 +11,8 @@
 <script setup>
 import SiteHeader from '~/components/SiteHeader.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
+
+const isSidebarOpen = ref(false)
 
 useHead({
   script: [
@@ -33,5 +37,12 @@ useHead({
       })
     }
   ]
+})
+
+// Provide sidebar state to child components
+provide('sidebarState', {
+  isOpen: readonly(isSidebarOpen),
+  toggle: () => isSidebarOpen.value = !isSidebarOpen.value,
+  close: () => isSidebarOpen.value = false
 })
 </script>
