@@ -1,6 +1,6 @@
 <template>
-  <main class="pt-24">
-    <section class="relative px-8 py-16 md:py-32 overflow-hidden">
+  <main class="pt-12">
+    <section class="relative px-8 pt-4 md:pb-32 overflow-hidden">
       <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div class="lg:col-span-7 z-10">
           <div class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full mb-6">
