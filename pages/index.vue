@@ -88,7 +88,7 @@
           </div>
 
           <div class="md:col-span-2 relative h-64 rounded-3xl overflow-hidden group">
-            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Atmospheric interior view of Bhakti Tailors boutique in Rajkot showing organized spools of colorful thread and traditional sewing machines" data-alt="Atmospheric interior view of Bhakti Tailors boutique in Rajkot showing organized spools of colorful thread and traditional sewing machines" loading="lazy" src="/Public/SticthingMachine.png" />
+            <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Atmospheric interior view of Bhakti Tailors boutique in Rajkot showing organized spools of colorful thread and traditional sewing machines" data-alt="Atmospheric interior view of Bhakti Tailors boutique in Rajkot showing organized spools of colorful thread and traditional sewing machines" loading="lazy" src="/SticthingMachine.png" />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
               <h4 class="text-white font-headline text-2xl font-bold">Visit Our Atelier</h4>
             </div>
@@ -108,11 +108,11 @@ definePageMeta({
     { property: 'og:title', content: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot' },
     { property: 'og:description', content: 'Crafting bespoke dresses, bridal wear, and precision tailoring for women across Rajkot.' },
     { property: 'og:type', content: 'website' },
-    { property: 'og:image', content: '/Public/SticthingMachine.png' },
+    { property: 'og:image', content: '/SticthingMachine.png' },
     { property: 'twitter:card', content: 'summary_large_image' },
     { property: 'twitter:title', content: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot' },
     { property: 'twitter:description', content: 'Crafting bespoke dresses, bridal wear, and precision tailoring for women across Rajkot.' },
-    { property: 'twitter:image', content: '/Public/SticthingMachine.png' }
+    { property: 'twitter:image', content: '/SticthingMachine.png' }
   ],
   script: [
     {
@@ -142,7 +142,7 @@ definePageMeta({
           'Su 10:00-16:00'
         ],
         priceRange: '₹₹',
-        image: '/Public/SticthingMachine.png',
+        image: '/SticthingMachine.png',
         sameAs: [
           'https://www.google.com/maps/place/Bhakti+Tailor/data=!4m2!3m1!1s0x0:0xd006e10ef49fef5d?sa=X&ved=1t:2428&ictx=111' // Add your Google Business profile URL
         ]

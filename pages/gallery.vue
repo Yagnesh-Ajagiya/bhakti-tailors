@@ -91,7 +91,7 @@
           </div>
         </div>
         <div class="bg-surface-container-lowest p-4 rounded-2xl shadow-sm rotate-2">
-          <img class="rounded-xl w-full h-64 object-cover" data-alt="A customer during a garment fitting, looking into a large ornate mirror with a tailor adjusting the sleeve" src="/Public/LadyOnMirror.png"  alt="A customer during a garment fitting, looking into a large ornate mirror with a tailor adjusting the sleeve" loading="lazy"/>
+          <img class="rounded-xl w-full h-64 object-cover" data-alt="A customer during a garment fitting, looking into a large ornate mirror with a tailor adjusting the sleeve" src="/LadyOnMirror.png"  alt="A customer during a garment fitting, looking into a large ornate mirror with a tailor adjusting the sleeve" loading="lazy"/>
           <p class="mt-4 text-center font-headline italic text-primary">Personalized Fitting Sessions</p>
         </div>
       </div>

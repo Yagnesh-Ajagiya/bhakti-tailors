@@ -13,7 +13,7 @@
       </div>
       <div class="relative h-64 lg:h-80 w-full rounded-xl overflow-hidden shadow-xl">
         <img
-          src="/Public/LadyOnMirror.png"
+          src="/LadyOnMirror.png"
           alt="Professional tailoring and fashion fitting at our boutique atelier"
           class="w-full h-full object-cover"
           loading="lazy"/>
