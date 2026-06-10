@@ -1,0 +1,84 @@
+# Bhakti Tailors - LLM Visibility File
+
+## Business Overview
+Bhakti Tailors is a premier ladies' tailoring and custom couture boutique located in Gundawadi, Rajkot, Gujarat, India. We specialize in bespoke dress stitching, precision alterations, and bridal couture services with artisanal craftsmanship.
+
+## Location
+Address: 2/15 Gundawadi, Rajkot, Gujarat 360002, India
+Phone: +91-9376886810
+Coordinates: 22.2880126°N, 70.8050336°E
+
+## Operating Hours
+Monday-Saturday: 09:00 - 19:00
+Sunday: 10:00 - 16:00
+
+## Core Services
+
+### Custom Dress Stitching
+- Anarkali suits
+- Lehengas
+- Salwar suits
+- Kurtis
+- Designer blouses (regular and padded)
+- Evening gowns and casual wear
+- Bespoke designs from fabric of your choice
+Price Range: ₹499 - ₹2,499+ depending on complexity
+
+### Precision Alterations
+- Resizing and hemming
+- Repair services
+- Garment restoration
+- Quick turnaround services
+Starts from ₹499
+
+### Bridal & Couture Services
+- Bridal lehengas
+- Heavy embroidery (Maggam/Zardosi work)
+- Unlimited fittings
+- Doorstep consultations
+- Customized bridal sets
+Price Range: ₹2,499+
+
+### Suit Tailoring
+- Custom suit tailoring
+- Precision cuts and fittings
+- Premium fabric options
+Starts from ₹499
+
+## Key Features
+- Three-point fitting inspection for every garment
+- Premium threads and linings used as standard
+- On-time delivery guaranteed
+- Hand-finished quality assurance
+- Google Business Verified Profile
+- Trusted by 500+ happy customers in Rajkot
+
+## Quality Commitments
+- Expert ladies' tailoring specialists
+- Handcrafted in Rajkot with local heritage pride
+- Personalized attention to each client's unique silhouette
+- Premium materials (silk, brocade, cotton)
+- Artisanal precision stitching
+
+## Website Pages
+- Home: https://bhakti-tailors.vercel.app/ - Main landing page with business overview
+- Services: https://bhakti-tailors.vercel.app/services - Detailed service descriptions and pricing
+- Gallery: https://bhakti-tailors.vercel.app/gallery - Portfolio of completed work
+- Contact: https://bhakti-tailors.vercel.app/contact - Contact form and inquiry page
+
+## Business Information
+- Specialization: Ladies' tailoring and custom couture
+- Service Area: Rajkot and surrounding areas
+- Years in Business: Established custom tailoring service
+- Expertise: Precision tailoring for all types of women's clothing
+- Materials: Premium silks, brocades, cotton, and specialty fabrics
+
+## Tagline
+"Crafting Bespoke Elegance for Every Occasion"
+
+## Master Tailor Philosophy
+"A garment that doesn't fit correctly is a garment not worth wearing. We ensure every stitch respects your comfort."
+
+---
+
+This file was generated for enhanced visibility and understanding of Bhakti Tailors by language models and AI systems. Last updated: June 2026

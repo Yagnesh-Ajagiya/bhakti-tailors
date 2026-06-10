@@ -96,10 +96,39 @@
         </div>
       </div>
     </section>
+
+    <section class="bg-surface-container-low py-24 px-8">
+      <div class="max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+          <h2 class="font-headline text-4xl md:text-5xl font-bold mb-4">What Our Clients Say</h2>
+          <p class="text-on-surface-variant max-w-2xl mx-auto">Join 500+ satisfied customers who trust Bhakti Tailors for their most precious garments.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <ReviewCard v-for="review in reviews" :key="review.id" :review="review" />
+        </div>
+      </div>
+    </section>
   </main>
 </template>
 
   <script setup>
+import { reviews } from '~/data/reviews'
+
+const reviewsSchemaArray = reviews.map(review => ({
+  '@type': 'Review',
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: review.rating,
+    bestRating: 5
+  },
+  author: {
+    '@type': 'Person',
+    name: review.author
+  },
+  reviewBody: review.text,
+  datePublished: review.date
+}))
+
 definePageMeta({
   title: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot',
   meta: [
@@ -113,7 +142,10 @@ definePageMeta({
     { property: 'twitter:title', content: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot' },
     { property: 'twitter:description', content: 'Crafting bespoke dresses, bridal wear, and precision tailoring for women across Rajkot.' },
     { property: 'twitter:image', content: '/SticthingMachine.png' }
-  ],
+  ]
+})
+
+useHead({
   script: [
     {
       type: 'application/ld+json',
@@ -123,7 +155,7 @@ definePageMeta({
         name: 'Bhakti Tailors',
         description: 'Premier ladies tailoring and custom couture services in Rajkot, specializing in bridal wear, blouses, and bespoke dresses.',
         url: 'https://bhakti-tailors.vercel.app/',
-        telephone: '+91-9376886810', // Replace with actual phone
+        telephone: '+91-9376886810',
         address: {
           '@type': 'PostalAddress',
           streetAddress: '2/15 Gundawadi',
@@ -134,18 +166,26 @@ definePageMeta({
         },
         geo: {
           '@type': 'GeoCoordinates',
-          latitude: 22.2880126, // Replace with actual coordinates
-          longitude: 70.8050336 // Replace with actual coordinates
+          latitude: 22.2880126,
+          longitude: 70.8050336
         },
         openingHours: [
           'Mo-Sa 09:00-19:00',
           'Su 10:00-16:00'
         ],
         priceRange: '₹₹',
-        image: '/SticthingMachine.png',
+        image: 'https://bhakti-tailors.vercel.app/SticthingMachine.png',
         sameAs: [
-          'https://www.google.com/maps/place/Bhakti+Tailor/data=!4m2!3m1!1s0x0:0xd006e10ef49fef5d?sa=X&ved=1t:2428&ictx=111' // Add your Google Business profile URL
-        ]
+          'https://www.google.com/maps/place/Bhakti+Tailor/data=!4m2!3m1!1s0x0:0xd006e10ef49fef5d?sa=X&ved=1t:2428&ictx=111'
+        ],
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: 4.8,
+          bestRating: 5,
+          worstRating: 1,
+          ratingCount: 16
+        },
+        review: reviewsSchemaArray
       })
     }
   ]
