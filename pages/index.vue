@@ -8,7 +8,7 @@
             <span class="text-xs font-bold uppercase tracking-wider font-label">Google Business Verified Profile</span>
           </div>
           <h1 class="text-5xl md:text-7xl font-headline font-bold leading-tight mb-6 text-on-background">
-            Crafting <span class="text-primary italic">Bespoke Elegance</span> for Every Occasion.
+            Best <span class="text-primary italic">Ladies Tailor</span> in Gundawadi, Rajkot.
           </h1>
           <p class="text-lg md:text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
             Precision tailoring and professional alterations located in the heart of Gundawadi, Rajkot. We bring your dream designs to life with handcrafted perfection.
