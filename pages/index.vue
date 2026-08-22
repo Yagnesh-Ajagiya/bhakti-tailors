@@ -129,33 +129,92 @@ const reviewsSchemaArray = reviews.map(review => ({
   datePublished: review.date
 }))
 
-definePageMeta({
-  title: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot',
-  meta: [
-    { name: 'description', content: 'Bhakti Tailors offers bespoke ladies tailoring, bridal blouses, and custom couture services in Rajkot with expert fittings and premium craftsmanship.' },
-    { name: 'robots', content: 'index, follow' },
-    { property: 'og:title', content: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot' },
-    { property: 'og:description', content: 'Crafting bespoke dresses, bridal wear, and precision tailoring for women across Rajkot.' },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:image', content: '/SticthingMachine.png' },
-    { property: 'twitter:card', content: 'summary_large_image' },
-    { property: 'twitter:title', content: 'Bhakti Tailors | Premier Ladies\' Tailoring in Rajkot' },
-    { property: 'twitter:description', content: 'Crafting bespoke dresses, bridal wear, and precision tailoring for women across Rajkot.' },
-    { property: 'twitter:image', content: '/SticthingMachine.png' }
-  ]
-})
-
 useHead({
+  title: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot',
+
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Bhakti Tailors offers bespoke ladies tailoring, bridal blouses, custom dresses, and professional alterations in Gundawadi, Rajkot with expert fittings and premium craftsmanship.'
+    },
+    {
+      name: 'robots',
+      content: 'index, follow'
+    },
+
+    {
+      property: 'og:title',
+      content: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot'
+    },
+    {
+      property: 'og:description',
+      content:
+        'Crafting bespoke dresses, bridal wear, blouses, and precision tailoring for women across Rajkot.'
+    },
+    {
+      property: 'og:type',
+      content: 'website'
+    },
+    {
+      property: 'og:url',
+      content: 'https://bhakti-tailors.vercel.app/'
+    },
+    {
+      property: 'og:site_name',
+      content: 'Bhakti Tailors'
+    },
+    {
+      property: 'og:image',
+      content: 'https://bhakti-tailors.vercel.app/SticthingMachine.png'
+    },
+    {
+      property: 'og:image:alt',
+      content: 'Bhakti Tailors boutique and tailoring services in Rajkot'
+    },
+
+    {
+      name: 'twitter:card',
+      content: 'summary_large_image'
+    },
+    {
+      name: 'twitter:title',
+      content: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot'
+    },
+    {
+      name: 'twitter:description',
+      content:
+        'Crafting bespoke dresses, bridal wear, blouses, and precision tailoring for women across Rajkot.'
+    },
+    {
+      name: 'twitter:image',
+      content: 'https://bhakti-tailors.vercel.app/SticthingMachine.png'
+    }
+  ],
+
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://bhakti-tailors.vercel.app/'
+    }
+  ],
+
   script: [
     {
       type: 'application/ld+json',
       children: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
+
         name: 'Bhakti Tailors',
-        description: 'Premier ladies tailoring and custom couture services in Rajkot, specializing in bridal wear, blouses, and bespoke dresses.',
+
+        description:
+          'Premier ladies tailoring and custom couture services in Rajkot, specializing in bridal wear, blouses, and bespoke dresses.',
+
         url: 'https://bhakti-tailors.vercel.app/',
+
         telephone: '+91-9376886810',
+
         address: {
           '@type': 'PostalAddress',
           streetAddress: '2/15 Gundawadi',
@@ -164,20 +223,26 @@ useHead({
           postalCode: '360002',
           addressCountry: 'IN'
         },
+
         geo: {
           '@type': 'GeoCoordinates',
           latitude: 22.2880126,
           longitude: 70.8050336
         },
+
         openingHours: [
           'Mo-Sa 09:00-19:00',
           'Su 10:00-16:00'
         ],
+
         priceRange: '₹₹',
+
         image: 'https://bhakti-tailors.vercel.app/SticthingMachine.png',
+
         sameAs: [
           'https://www.google.com/maps/place/Bhakti+Tailor/data=!4m2!3m1!1s0x0:0xd006e10ef49fef5d?sa=X&ved=1t:2428&ictx=111'
         ],
+
         aggregateRating: {
           '@type': 'AggregateRating',
           ratingValue: 4.8,
@@ -185,6 +250,7 @@ useHead({
           worstRating: 1,
           ratingCount: 16
         },
+
         review: reviewsSchemaArray
       })
     }
