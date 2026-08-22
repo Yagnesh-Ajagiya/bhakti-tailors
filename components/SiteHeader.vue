@@ -20,8 +20,16 @@
       </div>
       <div class="flex items-center gap-4">
         <div class="hidden sm:flex items-center gap-2 text-secondary">
-          <a href="https://maps.app.goo.gl/TrUY5ucAYatrmtjj8" target="_blank" class="material-symbols-outlined cursor-pointer">location_on</a>
-          <a href="tel:+919376886810" target="_blank" class="material-symbols-outlined cursor-pointer">call</a>
+          <a href="https://maps.app.goo.gl/TrUY5ucAYatrmtjj8" target="_blank" class="cursor-pointer">
+            <span class="icon">
+              <SvgLocationIcon />
+            </span>
+          </a>
+          <a href="tel:+919376886810" target="_blank" class="cursor-pointer">
+            <span class="icon">
+              <SvgCallIcon />
+            </span>
+          </a>
         </div>
         <button class="bg-primary text-on-primary px-6 py-2.5 rounded-xl font-medium hover:bg-primary-container transition-all duration-200 shadow-sm active:scale-95 hidden sm:block">
           Book Consultation
@@ -96,11 +104,15 @@
           <div class="px-6 pb-6 border-t border-[#1d1c12]/10">
             <div class="flex items-center gap-4 mb-6">
               <a href="https://maps.app.goo.gl/TrUY5ucAYatrmtjj8" target="_blank" class="flex items-center gap-2 text-secondary hover:text-[#b80049] transition-colors">
-                <span class="material-symbols-outlined">location_on</span>
+                <span class="icon">
+                  <SvgLocationIcon />
+                </span>
                 <span class="text-sm">Location</span>
               </a>
               <a href="tel:+919376886810" target="_blank" class="flex items-center gap-2 text-secondary hover:text-[#b80049] transition-colors">
-                <span class="material-symbols-outlined">call</span>
+                <span class="icon">
+                  <SvgCallIcon />
+                </span>
                 <span class="text-sm">Call</span>
               </a>
             </div>
@@ -134,3 +146,17 @@ watch(() => route.path, () => {
   closeSidebar()
 })
 </script>
+
+
+<style scoped>
+.icon {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+</style>

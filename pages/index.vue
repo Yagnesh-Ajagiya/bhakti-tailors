@@ -5,7 +5,9 @@
         <div class="lg:col-span-7 z-10">
           <div
             class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full mb-6">
-            <span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+            <span class="icon">
+              <SvgVerifiedIcon />
+            </span>
             <span class="text-xs font-bold uppercase tracking-wider font-label">Google Business Verified Profile</span>
           </div>
           <h1 class="text-5xl md:text-7xl font-headline font-bold leading-tight mb-6 text-on-background">
@@ -208,7 +210,7 @@ useHead({
     },
     {
       name: 'twitter:title',
-      content: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot'
+      content: 'Bhakti Tailors | Premier Ladies Tailoring in Gundawadi - Rajkot'
     },
     {
       name: 'twitter:description',
@@ -286,3 +288,15 @@ useHead({
   ]
 })
 </script>
+
+<style scoped>
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+</style>
