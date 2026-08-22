@@ -134,6 +134,11 @@ useHead({
 
   meta: [
     {
+      name: 'google-site-verification',
+      content: 'at4EtphZ9XRqz8leB5T8LNYtoqyVtiBgR0K-yJVtphE'
+    },
+
+    {
       name: 'description',
       content:
         'Bhakti Tailors offers bespoke ladies tailoring, bridal blouses, custom dresses, and professional alterations in Gundawadi, Rajkot with expert fittings and premium craftsmanship.'
