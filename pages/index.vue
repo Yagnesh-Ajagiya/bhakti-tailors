@@ -156,7 +156,7 @@ const reviewsSchemaArray = reviews.map(review => ({
 }))
 
 useHead({
-  title: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot',
+  title: 'Bhakti Tailors | Premier Ladies Tailoring in Gundawadi - Rajkot',
 
   meta: [
     {
@@ -176,7 +176,7 @@ useHead({
 
     {
       property: 'og:title',
-      content: 'Bhakti Tailors | Premier Ladies Tailoring in Rajkot'
+      content: 'Bhakti Tailors | Premier Ladies Tailoring in Gundawadi - Rajkot'
     },
     {
       property: 'og:description',
